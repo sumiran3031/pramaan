@@ -1,0 +1,50 @@
+﻿# ===== Node / Frontend =====
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ===== Java / Maven / Backend =====
+target/
+*.class
+*.jar
+!*.jar.original
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== Python / AI Service =====
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# ===== Environment / Secrets =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ===== Uploads / Logs / Temp =====
+uploads/
+*.log
+logs/
+tmp/
+*.tmp
+
+# ===== IDE / Editor =====
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ===== Database =====
+*.sql.bak
+*.db
+*.sqlite
+
+# ===== OS =====
+desktop.ini
